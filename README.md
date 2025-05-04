@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -39,3 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Nike-website
 Nike
 >>>>>>> ea93bf2fb174425b36e486cc60a44b34e37c2e7f
+=======
+# Nike Website
+A modern Nike store clone built with HTML, CSS, and JS.
+>>>>>>> 285186d5b93f808f7a0d3ed1d24edf269ce622ff
