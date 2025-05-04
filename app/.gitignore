@@ -1,0 +1,19 @@
+# macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+.env
+package-lock.json
+
+# Log files
+*.log
+
+# Build files (if any)
+dist/
+build/
+
+# Test or temp files
+i.js
+x.html
+

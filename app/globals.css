@@ -1,21 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.page-container {
+  display: flex;
+  gap: 20px; /* Spacing between sidebar and main content */
+  padding: 20px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.sidebar {
+  width: 250px; /* Fixed width for sidebar */
+  height: 100vh; /* Full height */
+  background: #f5f5f5;
+  position: sticky;
+  top: 0;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.main-section {
+  flex: 1; /* Takes the remaining space */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  position:absolute;
+  left: 50px;
+  
 }
